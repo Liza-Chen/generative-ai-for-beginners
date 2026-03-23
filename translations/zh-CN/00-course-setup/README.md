@@ -135,6 +135,9 @@ dependencies:
 conda install -c microsoft azure-ai-ml
 ```
 
+执行上一步会报错``，因为Conda 的 microsoft/defaults channel 里没有这个包，执行以下命令拉取
+`pip install azure-ai-ml`
+
 环境文件中指定了所需依赖。`<environment-name>` 是您想用作 Conda 环境名称的名字，`<python-version>` 是您希望使用的 Python 版本，例如 `3` 是最新的主版本。
 
 完成后，您可在命令行/终端运行以下命令创建 Conda 环境：
