@@ -1,10 +1,12 @@
 name: dev
 channels:
  - defaults
+ - microsoft
 dependencies:
-- python=3.10.0
+- python=3.12.12
 - openai
 - python-dotenv
 - pip
 - pip:
   - azure-ai-inference
+  - azure-ai-ml
